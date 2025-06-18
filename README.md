@@ -6,15 +6,13 @@
 
 <br>
 
-# 🌿 FASE 04/CTWP/Cap11 
+# 🌿 Classificação de Grãos com Machine Learning 
 
 ---
 
 ## 🚀 Visão Geral do Projeto
 
-Este repositório apresenta a **concretização da Fase 4** do **FarmTech Solutions**, um sistema avançado de **automação e inteligência preditiva** concebido para transformar a **gestão hídrica no agronegócio**. Distinguindo-se por sua abordagem inovadora, o projeto integra de forma sinérgica **Internet das Coisas (IoT)**, **Machine Learning (ML)** e **persistência de dados geoespaciais**, culminando em uma plataforma que vai além do monitoramento, promovendo a **predição e otimização autônoma** do uso de recursos hídricos. Nesta fase, nosso foco primordial foi a transição de um *protótipo conceitual* para uma *solução com inteligência embarcada proativa*, redefinindo os paradigmas de **eficiência hídrica** e **produtividade agrícola**.
-
-Por meio da **emulação de sensores de campo**, da **modelagem preditiva avançada** e de uma **interface interativa de alto desempenho**, o FarmTech Solutions estabelece um pipeline completo e distintivo para a **tomada de decisões estratégicas baseadas em dados**, impulsionando o ecossistema da **agricultura inteligente**.
+Este projeto utiliza algoritmos de Machine Learning para classificar grãos de trigo com base em medidas físicas. Exploramos diferentes modelos e descobrimos que é possível automatizar esse processo com alta precisão, trazendo grandes benefícios para o setor agrícola, especialmente para cooperativas.
 
 ---
 
@@ -22,10 +20,10 @@ Por meio da **emulação de sensores de campo**, da **modelagem preditiva avanç
 
  Nome Completo                           | RM       | Responsabilidades Principais |
 |-----------------------------------------|----------|------------------------------|
-| **Daniele Antonieta Garisto Dias**      | RM565106 | **Data Engineering & ML Ops**<br>- Estruturação do pipeline de dados em Python/SQLite<br>- Versionamento e retraining do modelo no Scikit-learn |
-| **Leandro Augusto Jardim da Cunha**     | RM561395 | **Firmware & Hardware**<br>- Programação do ESP32 em C/C++<br>- Otimizações de memória e testes no simulador Wokwi |
-| **Luiz Eduardo da Silva**               | RM561701 | **Modelagem Preditiva & Dashboard**<br>- Criação e validação dos modelos de ML<br>- Construção da interface Streamlit e documentação técnica |
-| **João Victor Viana de Sousa**          | RM565136 | **Gestão de Projeto & Banco de Dados**<br>- Coordenação do cronograma (Scrum Sprints)<br>- Design do esquema relacional e consultas SQL |
+| **Daniele Antonieta Garisto Dias**      | RM565106 | **Exploradora de Dados**<br>- Preparar e visualizar os dados brutos (grãos), garantindo que estejam limpos e compreendidos. |
+| **Leandro Augusto Jardim da Cunha**     | RM561395 | **Treinador de Modelos**<br>- Separar os dados, aplicar o escalonamento e treinar os modelos iniciais de classificação. |
+| **Luiz Eduardo da Silva**               | RM561701 | **Avaliador e Otimizador**<br>- Comparar o desempenho dos modelos e otimizar o melhor deles para máxima precisão. |
+| **João Victor Viana de Sousa**          | RM565136 | **Narrador de Insights**<br>- Escrever a introdução, interpretar os resultados finais e tirar conclusões para o problema real. |
 
 ---
 
